@@ -2,9 +2,9 @@
 
 This is repo for my 12 DOF quadruped robot Reinforced Learning project.
 
-# 📝Future plans 
+# 📝Project Plan 
 
-- Design full working CAD model
+- Design full working CAD model(Current Stage)
 - Setup ROS for this robot
 - Setup MuJoCo simulation environment for it
 - Build reinforced learning pipeline for teaching it to walk on uneven terrain
