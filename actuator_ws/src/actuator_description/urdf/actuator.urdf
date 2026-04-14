@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<robot name="SimplifiedMotorForIsaac" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find actuator_description)/urdf/materials.xacro" />
+
+  <link name="base_link">
+    <inertial>
+      <origin xyz="7.876126265149415e-10 3.396111089623501e-10 0.020074071808286877" rpy="0 0 0"/>
+      <mass value="0.32257780493980354"/>
+      <inertia ixx="0.000421" iyy="0.000423" izz="0.000456" ixy="0.0" iyz="0.0" ixz="0.0"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://actuator_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://actuator_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="RotorReal_1">
+    <inertial>
+      <origin xyz="0.09497238959121755 6.200410884085457e-13 0.004786491407362526" rpy="0 0 0"/>
+      <mass value="0.48350242199056315"/>
+      <inertia ixx="0.000359" iyy="0.004429" izz="0.004331" ixy="0.0" iyz="0.0" ixz="0.000817"/>
+    </inertial>
+    <visual>
+      <origin xyz="-0.0 -0.0 0.028" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://actuator_description/meshes/RotorReal_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0 -0.0 0.028" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://actuator_description/meshes/RotorReal_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="revolute_1" type="continuous">
+    <origin xyz="0.0 0.0 -0.028" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="RotorReal_1"/>
+    <axis xyz="0.0 0.0 -1.0"/>
+    <limit effort="5.0" velocity="10.0"/>
+    <dynamics damping="0.1" friction="0.05"/>
+  </joint>
+
+  <ros2_control name="ActuatorHardware" type="system">
+    <hardware>
+      <plugin>isaac_ros2_control/IsaacSystem</plugin>
+    </hardware>
+    <joint name="revolute_1">
+      <command_interface name="position"/>
+      <command_interface name="effort"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+  </ros2_control>
+
+</robot>

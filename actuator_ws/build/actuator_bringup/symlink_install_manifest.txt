@@ -1,0 +1,17 @@
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/config/controllers.yaml
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/launch/actuator_launch.py
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/ament_index/resource_index/package_run_dependencies/actuator_bringup
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/ament_index/resource_index/parent_prefix_path/actuator_bringup
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/environment/ament_prefix_path.sh
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/environment/ament_prefix_path.dsv
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/environment/path.sh
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/environment/path.dsv
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/local_setup.bash
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/local_setup.sh
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/local_setup.zsh
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/local_setup.dsv
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/package.dsv
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/ament_index/resource_index/packages/actuator_bringup
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/cmake/actuator_bringupConfig.cmake
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/cmake/actuator_bringupConfig-version.cmake
+/home/bfg/Documents/quadruped-rl/actuator_ws/install/actuator_bringup/share/actuator_bringup/package.xml
