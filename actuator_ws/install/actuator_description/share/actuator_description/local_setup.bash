@@ -1,1 +1,0 @@
-/home/bfg/Documents/quadruped-rl/actuator_ws/build/actuator_description/ament_cmake_environment_hooks/local_setup.bash

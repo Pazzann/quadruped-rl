@@ -1,9 +1,0 @@
-/home/bfg/Documents/quadruped-rl/actuator_ws/build/actuator_description/CMakeFiles/uninstall.dir
-/home/bfg/Documents/quadruped-rl/actuator_ws/build/actuator_description/CMakeFiles/actuator_description_uninstall.dir
-/home/bfg/Documents/quadruped-rl/actuator_ws/build/actuator_description/CMakeFiles/test.dir
-/home/bfg/Documents/quadruped-rl/actuator_ws/build/actuator_description/CMakeFiles/edit_cache.dir
-/home/bfg/Documents/quadruped-rl/actuator_ws/build/actuator_description/CMakeFiles/rebuild_cache.dir
-/home/bfg/Documents/quadruped-rl/actuator_ws/build/actuator_description/CMakeFiles/list_install_components.dir
-/home/bfg/Documents/quadruped-rl/actuator_ws/build/actuator_description/CMakeFiles/install.dir
-/home/bfg/Documents/quadruped-rl/actuator_ws/build/actuator_description/CMakeFiles/install/local.dir
-/home/bfg/Documents/quadruped-rl/actuator_ws/build/actuator_description/CMakeFiles/install/strip.dir
