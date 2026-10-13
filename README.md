@@ -6,8 +6,8 @@ This is repo for my 12 DOF quadruped robot Reinforced Learning project.
 
 - Design full working CAD model(Current Stage)
 - Setup ROS for this robot
-- Setup MuJoCo simulation environment for it
-- Build reinforced learning pipeline for teaching it to walk on uneven terrain
+- Setup IsaacSim simulation environment for it
+- Build IsaacLab reinforced learning pipeline for teaching it to walk on uneven terrain
 - Build it in reality
 - Iterate
 
