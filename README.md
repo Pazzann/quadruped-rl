@@ -15,7 +15,7 @@ This is repo for my 12 DOF quadruped robot Reinforced Learning project.
 
 ### Custom actuator
 
-Custom working actuator has 7:1 reduction ratio based on a mix of cycloidal and planetary gearbox.
+Custom working actuator has 7:1 reduction ratio based on a planetary gearbox.
 
 ![actuator pic](./media/actuator.jpg)
 
